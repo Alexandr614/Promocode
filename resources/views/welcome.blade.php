@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Promocode</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,10 @@
     </head>
     <body class="antialiased">
         <div id="app">
-            <example-component></example-component>
+            <div class="row">
+                <router-view name="main"></router-view>
+                <router-view name="admin"></router-view>
+            </div>
         </div>
     </body>
     <script src="/js/app.js"></script>
